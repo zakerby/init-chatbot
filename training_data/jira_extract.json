@@ -1,0 +1,187 @@
+{
+    "expand": "names,schema",
+    "startAt": 0,
+    "maxResults": 1,
+    "total": 888,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+            "id": "11718",
+            "self": "https://hackersandslackers.atlassian.net/rest/api/3/issue/11718",
+            "key": "HACK-756",
+            "fields": {
+                "issuetype": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/issuetype/10014",
+                    "id": "10014",
+                    "description": "Placeholder item for \"holy shit this is going to be a lot of work\"",
+                    "iconUrl": "https://hackersandslackers.atlassian.net/secure/viewavatar?size=xsmall&avatarId=10311&avatarType=issuetype",
+                    "name": "Major Functionality",
+                    "subtask": false,
+                    "avatarId": 10311
+                },
+                "customfield_10070": null,
+                "customfield_10071": null,
+                "customfield_10073": null,
+                "customfield_10074": null,
+                "customfield_10075": null,
+                "project": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/project/10015",
+                    "id": "10015",
+                    "key": "HACK",
+                    "name": "Hackers and Slackers",
+                    "projectTypeKey": "software",
+                    "avatarUrls": {
+                        "48x48": "https://hackersandslackers.atlassian.net/secure/projectavatar?pid=10015&avatarId=10535",
+                        "24x24": "https://hackersandslackers.atlassian.net/secure/projectavatar?size=small&pid=10015&avatarId=10535",
+                        "16x16": "https://hackersandslackers.atlassian.net/secure/projectavatar?size=xsmall&pid=10015&avatarId=10535",
+                        "32x32": "https://hackersandslackers.atlassian.net/secure/projectavatar?size=medium&pid=10015&avatarId=10535"
+                    }
+                },
+                "fixVersions": [],
+                "resolution": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": "2019-03-24T02:01:31.355-0400",
+                "watches": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/issue/HACK-756/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2019-02-03T00:47:36.677-0500",
+                "customfield_10062": null,
+                "customfield_10063": null,
+                "customfield_10064": null,
+                "customfield_10065": null,
+                "customfield_10066": null,
+                "priority": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/priority/2",
+                    "iconUrl": "https://hackersandslackers.atlassian.net/images/icons/priorities/high.svg",
+                    "name": "High",
+                    "id": "2"
+                },
+                "customfield_10067": null,
+                "customfield_10068": null,
+                "customfield_10069": [],
+                "labels": [],
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/user?accountId=557058%3A713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "name": "bro",
+                    "key": "admin",
+                    "accountId": "557058:713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "emailAddress": "toddbirchard@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+                        "24x24": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+                        "16x16": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+                        "32x32": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+                    },
+                    "displayName": "Todd Birchard",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "updated": "2019-03-24T02:01:30.724-0400",
+                "status": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/status/10004",
+                    "description": "",
+                    "iconUrl": "https://hackersandslackers.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10004",
+                    "statusCategory": {
+                        "self": "https://hackersandslackers.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "description": {
+                    "version": 1,
+                    "type": "doc",
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "text": "https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/",
+                                    "marks": [
+                                        {
+                                            "type": "link",
+                                            "attrs": {
+                                                "href": "https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "customfield_10010": null,
+                "customfield_10011": "0|i0064j:i",
+                "customfield_10012": null,
+                "customfield_10013": null,
+                "security": null,
+                "customfield_10008": "HACK-143",
+                "customfield_10009": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "Portfolio for Jira must be licensed for the Parent Link to be available."
+                    }
+                },
+                "summary": "Automate newsletter",
+                "creator": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/user?accountId=557058%3A713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "name": "bro",
+                    "key": "admin",
+                    "accountId": "557058:713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "emailAddress": "toddbirchard@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+                        "24x24": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+                        "16x16": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+                        "32x32": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+                    },
+                    "displayName": "Todd Birchard",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/user?accountId=557058%3A713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "name": "bro",
+                    "key": "admin",
+                    "accountId": "557058:713aac6d-44ef-416d-9a1d-3e524a5c4dc8",
+                    "emailAddress": "toddbirchard@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=48&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D48%26noRedirect%3Dtrue",
+                        "24x24": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=24&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D24%26noRedirect%3Dtrue",
+                        "16x16": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=16&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D16%26noRedirect%3Dtrue",
+                        "32x32": "https://avatar-cdn.atlassian.com/9eb3868db428fb602e03b3059608199b?s=32&d=https%3A%2F%2Fsecure.gravatar.com%2Favatar%2F9eb3868db428fb602e03b3059608199b%3Fd%3Dmm%26s%3D32%26noRedirect%3Dtrue"
+                    },
+                    "displayName": "Todd Birchard",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "customfield_10000": "{}",
+                "customfield_10001": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "votes": {
+                    "self": "https://hackersandslackers.atlassian.net/rest/api/3/issue/HACK-756/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        }
+    ]
+}
