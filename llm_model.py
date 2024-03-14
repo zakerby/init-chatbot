@@ -1,10 +1,15 @@
-from langchain_community.llms import Ollama
 from llama_index.core import VectorStoreIndex, ServiceContext, SimpleDirectoryReader
-from llama_index.core.llms.ollama import Ollama
+from llama_index.llms import Ollama
+from llama_index.vector_stores.qdrant import QdrantVectorStore
+from llama_index.storage.storage_context import StorageContext
 
 from qdrant_client import QdrantClient
 
-llm_model = Ollama(model="gemma:2b", base_url="http://localhost:11434", verbose=True)
+llm_model = Ollama(
+    model="gemma:2b", 
+    base_url="http://localhost:11434",
+    verbose=True
+)
 
 
 def send_prompt(prompt):
@@ -13,6 +18,7 @@ def send_prompt(prompt):
 
 
 def train_model():
+    print("Reading JSON from training_data")
     documents = SimpleDirectoryReader("./training_data").load_data()
     # Initializing the vector store with Qdrant
     client = QdrantClient(path="./qdrant_data")
